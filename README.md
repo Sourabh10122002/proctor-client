@@ -58,10 +58,12 @@ git clone https://github.com/Sourabh10122002/proctor-client.git
 cd proctor-client
 ```
 
-2. Install dependencies:
+2. Install dependencies (using npm - the recommended package manager):
 ```bash
 npm install
 ```
+
+> **Note**: This project uses npm. While other package managers like yarn or pnpm may work, npm is recommended for consistency.
 
 3. Set up environment variables (optional):
 Create a `.env` file in the root directory:
@@ -92,13 +94,13 @@ npm run preview
 
 ## 📖 Usage
 
-1. **Grant Permissions**: Allow camera and microphone access when prompted
-2. **Enter Candidate Name**: Input the candidate's name in the info panel
-3. **Start Recording**: Click "Start Recording" to begin the proctoring session
-4. **Monitor Events**: Watch the live events panel for real-time alerts
+1. **Grant Permissions**: Allow camera and microphone access when prompted by your browser
+2. **Enter Candidate Name**: Input the candidate's name in the "Candidate Information" panel on the right side
+3. **Start Recording**: Click the "Start Recording" button in the control panel to begin the proctoring session
+4. **Monitor Events**: Watch the "Live Events" panel for real-time alerts of any detected activities
 5. **Stop Recording**: Click "Stop Recording" when the interview is complete
-6. **View Report**: Click "View Report" to see the session summary
-7. **Export Data**: Download the recording or export event logs as needed
+6. **View Report**: Click "View Report" to see the detailed session summary with integrity score
+7. **Export Data**: Download the recording (as WebM video) or export event logs as CSV for further analysis
 
 ## 🔍 Detection Thresholds
 
